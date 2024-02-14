@@ -10,7 +10,7 @@ def mediana(numbers):
     numbers.sort()
 
 
-    if int(numbers[0] == 0):
+    if int(numbers[0]) == 0:
         return None
     else:
         amount = int(numbers[0])
