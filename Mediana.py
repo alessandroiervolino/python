@@ -20,6 +20,7 @@ def mediana(numbers):
 
             Med = int((len(numbers)/2)+0.5)
             print(numbers[Med])
+            print(numbers)
         else:
             print("Longitud par ")
 
@@ -29,5 +30,6 @@ def mediana(numbers):
 
             result = float((numbers[Med] + numbers[Med1])/2)
             print (result)
+            print(numbers)
         
 mediana(numbers)
